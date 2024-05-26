@@ -1,0 +1,14 @@
+/* body,
+html,
+#root {
+  width: 100%;
+  height: 500vh;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden; /* Prevents scrolling */
+
+.hero {
+  height: 600vh;
+}
