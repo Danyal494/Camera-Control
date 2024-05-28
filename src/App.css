@@ -10,5 +10,10 @@ html,
   overflow: hidden; /* Prevents scrolling */
 
 .hero {
-  height: 600vh;
+  height: 800vh;
+  background-color: blue;
+}
+
+::-webkit-scrollbar {
+  height: 49px;
 }
