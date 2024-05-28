@@ -8,7 +8,7 @@ import SCameraController from "./component/SCameraControl";
 const App = () => {
   return (
     <div className="hero">
-      <Canvas style={{ height: "100vh" }}>
+      <Canvas style={{ height: "30vh", marginTop: "40px" }}>
         {/* <CameraController /> */}
         <SCameraController />
         <ambientLight />
