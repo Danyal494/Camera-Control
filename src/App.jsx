@@ -7,7 +7,10 @@ import SCameraController from "./component/SCameraControl";
 
 const App = () => {
   return (
-    <div className="hero " style={{ background: "black", height: "200vh" }}>
+    <div
+      className="hero "
+      style={{ background: "black", height: "200vh", width: "100vh" }}
+    >
       <Canvas style={{ height: "30vh", paddingTop: "500px" }}>
         {/* <CameraController /> */}
         <SCameraController />
