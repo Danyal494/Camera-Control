@@ -1,24 +1,24 @@
-// App.js
 import React from "react";
 import { Canvas } from "@react-three/fiber";
-import CameraController from "./component/CameraController";
-import { div } from "three/examples/jsm/nodes/Nodes.js";
+
 import SCameraController from "./component/SCameraControl";
 
 const App = () => {
   return (
     <div
       className="hero "
-      style={{ background: "black", height: "200vh", width: "100vh" }}
+      style={{ background: "black", height: "100vh", width: "100%"  }}
     >
-      <Canvas style={{ height: "30vh", paddingTop: "500px" }}>
+      <Canvas
+      //  style={{ height: "100vh", paddingTop: "500px" }}
+       >
         {/* <CameraController /> */}
         <SCameraController />
         <ambientLight />
         <pointLight position={[10, 10, 10]} />
         <mesh>
-          <boxGeometry args={[3, 3, 3]} />
-          <meshStandardMaterial wireframe color="orange" />
+          <boxGeometry args={[2, 2, 2]} />
+          <meshStandardMaterial  wireframe color="orange" />
         </mesh>
       </Canvas>
     </div>

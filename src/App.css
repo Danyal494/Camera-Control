@@ -1,19 +1,13 @@
-/* body,
-html,
-#root {
-  width: 100%;
-  height: 500vh;
+*{
   margin: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  overflow: hidden; /* Prevents scrolling */
-
+  padding: 0;
+  box-sizing: border-box;
+}
 .hero {
   height: 800vh;
   background-color: blue;
 }
 
-::-webkit-scrollbar {
-  height: 49px;
+::-webkit-scrollbar{
+  display: none;
 }
